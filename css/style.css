@@ -708,6 +708,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
 }
+
 .fh5co-social li {
   padding: 0;
   margin: 0;
@@ -732,6 +733,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .fh5co-social li a:hover {
   color: rgba(255, 255, 255, 0.7);
+transform: rotateY(180deg);
+	transition: 0.9s;
 }
 .fh5co-social.fh5co-stack li {
   display: block;
