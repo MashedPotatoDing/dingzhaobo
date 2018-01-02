@@ -537,7 +537,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: -2em;
   right: 50px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px)
   .fh5co-project .fh5co-imgs .img-holder-2 {
     position: absolute;
   }
@@ -733,7 +733,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .fh5co-social li a:hover {
   color: rgba(255, 255, 255, 0.7);
-transform: rotateX(360deg);
+transform: rotateX(180deg);
 	transition: 0.9s;
 }
 .fh5co-social.fh5co-stack li {
